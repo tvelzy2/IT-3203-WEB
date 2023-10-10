@@ -4,11 +4,10 @@ body {
 
 .logo {
     display: inline-block;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     font-color: #fff;
     padding: 10px 20px 10px 20px;
-    margin-right: 50px;
 }
 
 header {
@@ -16,7 +15,11 @@ header {
 }
 
 .navigation {
-    text-align: center; /*Aligns navigation bar to center of page on the same line */
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 15px;
 }
 
 nav ul {

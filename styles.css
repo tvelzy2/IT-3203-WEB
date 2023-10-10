@@ -2,6 +2,10 @@ header {
     background-color: #333; /* Background color for the header */
 }
 
+nav {
+    text-align: center; /* Centers content at the center of page.*/
+}
+
 nav ul {
     list-style-type: none; /* Removes bullet points for list items */
     padding: 0; /* Removes default padding */

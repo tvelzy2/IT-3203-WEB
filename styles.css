@@ -1,1 +1,30 @@
+header {
+    background-color: #333; /* Background color for the header */
+}
 
+nav ul {
+    list-style-type: none; /* Removes bullet points for list items */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+nav li {
+    display: inline; /* Displays list items horizontally */
+    margin-right: 20px; /* Adds spacing between menu items */
+}
+
+/* Style the links (anchor tags) */
+nav a {
+    text-decoration: none; /* Removes underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Makes text bold */
+}
+
+/* Add styles for hover and active states */
+nav a:hover {
+    color: #FFA500; /* Changes text color on hover */
+}
+
+nav a:active {
+    color: #FF0000; /* Changes text color on active (clicked) */
+}

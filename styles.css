@@ -4,10 +4,14 @@ body {
 
 #logo {
     display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: white;
     font-size: 40px;
     font-weight: bold;
-    font-color: #fff;
-    padding: 10px 20px 10px 20px;
 }
 
 header {

@@ -3,17 +3,18 @@ header {
     font-family: Arial, sans-serif;
 }
 
-.navigation {
+/*.navigation {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-}
+}*/
 
 nav ul {
     list-style-type: none; /* Removes bullet points for list items */
     padding: 0; /* Removes default padding */
     margin: 0; /* Removes default margin */
+    display: inline-block;
 }
 
 nav li {

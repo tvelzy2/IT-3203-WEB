@@ -41,8 +41,9 @@ nav a:active {
     color: #FF0000; /* Changes text color on active (clicked) */
 }
 
-.maintext {
+.centered_text {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }

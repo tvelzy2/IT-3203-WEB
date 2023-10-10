@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif; /* Changes font for all body text */
 }
 
-#logo {
+.logo {
     display: inline-block;
     font-size: 36px;
     font-weight: bold;

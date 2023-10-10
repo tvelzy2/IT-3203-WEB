@@ -30,7 +30,7 @@ header {
 }
 
 .navigation li a {
-    display: block; /* Make anchor links full-width for easier clicking */
+   /* display: block; Make anchor links full-width for easier clicking */
     padding: 15px 20px; /* Add padding to create clickable areas */
     text-decoration: none; /* Remove underlines from links */
     color: white; /* Set the text color */

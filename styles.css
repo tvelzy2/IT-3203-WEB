@@ -1,5 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Changes font for all body text */
+}
+
+h1 {
+    color: #fff /* Changes color for all h1 elements */
 }
 
 header {
@@ -7,7 +11,7 @@ header {
 }
 
 .navigation {
-    text-align: center;
+    text-align: center; /*Aligns navigation bar to center of page on the same line */
 }
 
 nav ul {

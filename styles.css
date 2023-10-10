@@ -4,7 +4,7 @@ body {
 
 #logo {
     display: inline-block;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 15px 20px;
 }
 
 #logo a {
@@ -16,13 +16,13 @@ body {
 
 header {
     background-color: #333; /* Background color for the header */
+    padding-bottom: 15px;
 }
 
 .navigation {
     list-style-type: none; /* Remove default list bullet points */
     margin: 0;
     padding: 0;
-    background-color: #333; /* Set the background color */
 }
 
 .navigation li {
@@ -40,5 +40,6 @@ header {
 }
 
 .centered_text {
+    padding-top: 10px;
     text-align: center;
 }

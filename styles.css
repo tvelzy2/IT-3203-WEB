@@ -15,39 +15,25 @@ header {
 }
 
 .navigation {
-    display: inline-block;
-    margin-right: 10px;
-    position: relative;
-    padding: 10px 15px;
-    border-radius: 15px;
+    list-style-type: none; /* Remove default list bullet points */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Set the background color */
 }
 
-nav ul {
-    list-style-type: none; /* Removes bullet points for list items */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
-    display: inline-block;
+.navigation li {
+    display: inline; /* Display list items horizontally */
 }
 
-nav li {
-    display: inline; /* Displays list items horizontally */
-    margin-right: 30px; /* Adds spacing between menu items */
+.navigation li a {
+    display: block; /* Make anchor links full-width for easier clicking */
+    padding: 15px 20px; /* Add padding to create clickable areas */
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Set the text color */
 }
 
-/* Style the links (anchor tags) */
-nav a {
-    text-decoration: none; /* Removes underlines from links */
-    color: #fff; /* Text color for links */
-    font-weight: bold; /* Makes text bold */
-}
-
-/* Add styles for hover and active states */
-nav a:hover {
-    color: #FFA500; /* Changes text color on hover */
-}
-
-nav a:active {
-    color: #FF0000; /* Changes text color on active (clicked) */
+.navigation li a:hover {
+    background-color: #555; /* Style for hover effect */
 }
 
 .centered_text {

@@ -1,10 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif; /* Changes font for all body text */
+    background-color: #f1f1f1;
 }
 
 header {
+    text-align: center;
     background-color: #333; /* Background color for the header */
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 footer {
@@ -48,13 +56,15 @@ footer {
     background-color: #555; /* Style for hover effect */
 }
 
-.centered_text {
+.index_main {
     padding-top: 50px;
     text-align: center;
 }
 
 .about_us_main {
-    text-align: center;
+    width: 90vw;
+    padding-top: 50px;
+    margin: 0 auto;
 }
 
 .shipping_returns_main {

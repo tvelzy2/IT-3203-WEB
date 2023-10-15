@@ -7,6 +7,9 @@
 body {
     font-family: Arial, sans-serif; /* Changes font for all body text */
     background-color: #f1f1f1;
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 100vh;
 }
 
 header {
@@ -19,9 +22,11 @@ footer {
     text-align: center;
     color: white;
     background: #333;
-    margin-top: 100px;
-    padding: 50px 0px 50px 0px;
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
     width: 100%;
+    
 }
 
 #logo {

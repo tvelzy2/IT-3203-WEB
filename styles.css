@@ -5,16 +5,15 @@
 }
 
 body {
-    font-family: Arial, sans-serif; /* Changes font for all body text */
+    font-family: Arial, sans-serif;
     background-color: #f1f1f1;
     position: relative;
-    padding-bottom: 50px;
     min-height: 100vh;
 }
 
 header {
     text-align: center;
-    background-color: #333; /* Background color for the header */
+    background-color: #333;
     padding: 15px;
 }
 
@@ -26,7 +25,7 @@ footer {
     padding: 20px;
     bottom: 0;
     width: 100%;
-    
+    line-height: 30px;
 }
 
 #logo {
@@ -42,23 +41,23 @@ footer {
 }
 
 .navigation {
-    list-style-type: none; /* Remove default list bullet points */
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .navigation li {
-    display: inline; /* Display list items horizontally */
+    display: inline;
 }
 
 .navigation li a {
-    padding: 15px 20px; /* Add padding to create clickable areas */
-    text-decoration: none; /* Remove underlines from links */
-    color: white; /* Set the text color */
+    padding: 15px 20px;
+    text-decoration: none; 
+    color: white;
 }
 
 .navigation li a:hover {
-    background-color: #555; /* Style for hover effect */
+    background-color: #555;
 }
 
 .index_main {

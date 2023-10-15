@@ -19,6 +19,15 @@ header {
     padding-bottom: 15px;
 }
 
+footer {
+    text-align: center;
+    color: white;
+    background: #333;
+    margin-top: 100px;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+}
+
 .navigation {
     list-style-type: none; /* Remove default list bullet points */
     margin: 0;
@@ -40,7 +49,7 @@ header {
 }
 
 .centered_text {
-    padding-top: 10px;
+    padding-top: 50px;
     text-align: center;
 }
 

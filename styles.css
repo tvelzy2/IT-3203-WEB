@@ -79,12 +79,19 @@ footer {
     text-align: center;
 }
 
+.product-display-main{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 50vh;
+}
+
 .product-container {
     width: 200px;
     border: 1px solid #e1e1e1;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 45px;
     text-align: center;
     display: inline-block;
 }
@@ -104,5 +111,10 @@ footer {
     font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: black;
+}
+
+.product-description {
+    margin-top: 3px;
     color: black;
 }

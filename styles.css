@@ -78,16 +78,8 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
-    product_display_body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
-  .product-container {
+.product-container {
     width: 200px;
     border: 1px solid #e1e1e1;
     border-radius: 5px;
@@ -95,22 +87,22 @@ footer {
     margin: 20px auto;
     text-align: center;
     display: inline-block;
-  }
+}
 
-  .product-container:hover {
+.product-container:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  .product-image {
+.product-image {
     width: 100%;
     border-radius: 5px;
-  }
+}
 
-  .product-title {
+.product-title {
     height: 50px;
     margin-top: 10px;
     font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
     color: black;
-  }
+}

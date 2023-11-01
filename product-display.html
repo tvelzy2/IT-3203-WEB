@@ -6,13 +6,14 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Product Display</title>
 </head>
-<body>
+
+<body class="product_display_body">
     <header>
         <nav>
             <div id="logo">
                 <a href="index.html">Vinny's Vinyls</a>
             </div>
-        <ul>
+        <ul class = "navigation">
             <li><a href="index.html">Home</a></li>
             <li><a href="product-display.html">Products</a></li>
             <li><a href="shipping-returns.html">Shipping & Returns</a></li>
@@ -23,12 +24,30 @@
     
     <main>
         <p>This is the content of Product Display.</p>
+        
+        <div class="product-container">
+            <a href="product-1.html">
+            <img class="product-image" src="https://via.placeholder.com/150">
+            <div class="product-title">Pacific Breeze: AOR And Boogie 1976-1986</div>
+            <div class="product-description">Description of Product 1</div>
+            </a>
+        </div>
 
-        <ol>
-            <li><a href="product-1.html">Product 1</a></li>
-            <li><a href="product-2.html">Product 2</a></li>
-            <li><a href="product-3.html">Proudct 3</a></li>
-        </ol>
+        <div class="product-container">
+            <a href="product-2.html">
+            <img class="product-image" src="https://via.placeholder.com/150">
+            <div class="product-title">Starflight</div>
+            <div class="product-description">Description of Product 2</div>
+            </a>
+        </div>
+
+        <div class="product-container">
+            <a href="product-3.html">
+            <img class="product-image" src="https://via.placeholder.com/150">
+            <div class="product-title">Tatsuro Yamashita - For You</div>
+            <div class="product-description">Description of Product 3</div>
+            </a>
+        </div>
     </main>
     
     <footer>

@@ -134,6 +134,12 @@ footer {
 
 /*PRODUCT-DISPLAY PAGE ----------------------------------------------------------------------------------------------------------*/
 
+.product-display-body{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperup.com%2Fuploads%2Fwallpapers%2F2012%2F09%2F25%2F16385%2F5a3f14611d3bad73eae8383d9b87268a.jpg&f=1&nofb=1&ipt=d69f241401c6dccbff27ebc3aec1f4d8d5416a65f757717237e4441400193dd2&ipo=images);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .product-display-main {
     display: flex;
     justify-content: center;
@@ -143,7 +149,8 @@ footer {
 
 .product-container {
     width: 200px;
-    border: 1px solid #e1e1e1;
+    border: 3px solid #a4a4a4;
+    background-color: #e1e1e1;
     border-radius: 5px;
     padding: 10px;
     margin: 45px;
@@ -152,7 +159,8 @@ footer {
 }
 
 .product-container:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
 }
 
 .product-image {

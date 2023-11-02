@@ -14,14 +14,13 @@ body {
 
 header {
     text-align: center;
-    background-color: #333;
     padding: 15px;
 }
 
 footer {
     text-align: center;
-    color: white;
-    background: #333;
+    color: black;
+    background: #e3d7bd;
     position: absolute;
     padding: 20px;
     bottom: 0;
@@ -36,7 +35,7 @@ footer {
 
 #logo a {
     text-decoration: none;
-    color: white;
+    color: #e3d7bd;
     font-size: 40px;
     font-weight: bold;
 }
@@ -54,16 +53,29 @@ footer {
 .navigation li a {
     padding: 15px 20px;
     text-decoration: none; 
-    color: white;
+    color: #e3d7bd;
 }
 
 .navigation li a:hover {
-    background-color: #555;
+    color: #555;
 }
 
 .index_main {
     padding-top: 50px;
     text-align: center;
+    color: #e3d7bd;
+}
+
+.index-body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperup.com%2Fuploads%2Fwallpapers%2F2014%2F01%2F14%2F226889%2Fd9f296034d69dffde71729fb924fa271.jpg&f=1&nofb=1&ipt=0e0766f785971e9dbcf98ee885e444367c21a33ad8386edf5fc247f542331491&ipo=images);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sale-container {
+    padding-top: 50px;
+    background-color: rgba()
 }
 
 .about_us_main {
@@ -79,9 +91,9 @@ footer {
     text-align: center;
 }
 
-.product-display-main{
+.product-display-main {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     height: 50vh;
 }

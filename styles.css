@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    text-align: center;
     background-color: #101010;
     padding: 15px;
 }
@@ -48,17 +47,17 @@ footer {
     padding: 0;
 }
 
-.navigation li {
+.navigation {
     display: inline;
 }
 
-.navigation li a {
+.navigation a {
     padding: 15px 20px;
     text-decoration: none; 
     color: #d4d4d4;
 }
 
-.navigation li a:hover {
+.navigation a:hover {
     color: #555;
 }
 

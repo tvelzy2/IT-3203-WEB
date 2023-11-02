@@ -74,8 +74,9 @@ footer {
 }
 
 .sale-container {
-    padding-top: 50px;
-    background-color: rgba()
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgba(11, 11, 11, 0.8)
 }
 
 .about_us_main {

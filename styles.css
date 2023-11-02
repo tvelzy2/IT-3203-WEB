@@ -15,6 +15,7 @@ body {
 
 header {
     text-align: center;
+    background-color: #101010;
     padding: 15px;
 }
 
@@ -36,7 +37,7 @@ footer {
 
 #logo a {
     text-decoration: none;
-    color: #e3d7bd;
+    color: #d4d4d4;
     font-size: 40px;
     font-weight: bold;
 }
@@ -54,7 +55,7 @@ footer {
 .navigation li a {
     padding: 15px 20px;
     text-decoration: none; 
-    color: #555;
+    color: #d4d4d4;
 }
 
 .navigation li a:hover {

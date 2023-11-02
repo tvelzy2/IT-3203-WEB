@@ -81,17 +81,17 @@ footer {
     padding: 0;
 }
 
-.index-navigation li {
+.index-navigation {
     display: inline;
 }
 
-.index-navigation li a {
+.index-navigation a {
     padding: 15px 20px;
     text-decoration: none; 
     color: #e3d7bd;
 }
 
-.index-navigation li a:hover {
+.index-navigation a:hover {
     color: #555;
 }
 

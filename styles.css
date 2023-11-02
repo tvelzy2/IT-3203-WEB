@@ -45,9 +45,6 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.navigation {
     display: inline;
 }
 
@@ -62,38 +59,6 @@ footer {
 }
 
 /*INDEX PAGE ----------------------------------------------------------------------------------------------------------*/
-
-#index-logo {
-    display: inline-block;
-    padding: 10px 20px 15px 20px;
-}
-
-#index-logo a {
-    text-decoration: none;
-    color: #e3d7bd;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.index-navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.index-navigation {
-    display: inline;
-}
-
-.index-navigation a {
-    padding: 15px 20px;
-    text-decoration: none; 
-    color: #e3d7bd;
-}
-
-.index-navigation a:hover {
-    color: #555;
-}
 
 .index_main {
     padding-top: 50px;

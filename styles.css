@@ -95,9 +95,9 @@ th {
     background-color: rgba(11, 11, 11, 0.8);
     margin: 50px;
     padding-top: 20px;
+    justify-content: center;
 }
 .new-arrival-heading {
-    text-align: left;
     text-decoration: bold;
     font-size: 45px;
     margin: 150px;

@@ -27,7 +27,7 @@ footer {
     line-height: 25px;
 }
 table {
-    width: 80%;
+    width: 50%;
     border-collapse: collapse;
     margin-top: 50px;
     margin-left: auto;
@@ -37,8 +37,6 @@ th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
-}
-th {
     background-color: #d4d4d4;
 }
 #logo {

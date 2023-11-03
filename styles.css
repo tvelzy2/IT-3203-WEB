@@ -79,11 +79,38 @@ th {
     background-attachment: fixed;
     background-size: cover;
 }
+.index-welcome {
+    font-size: 45px;
+    background-color: rgba(11, 11, 11, 0.8);
+    margin: 50px;
+    line-height: 100px;
+}
 .sale-container {
-    margin-top: 100px;
+    margin: 50px;
     padding: 20px;
     background-color: rgba(11, 11, 11, 0.8)
 }
+.new-arrival-container {
+    display: flex;
+    background-color: rgba(11, 11, 11, 0.8);
+    margin: 50px;
+    padding-top: 20px;
+}
+.new-arrival-heading {
+    text-align: left;
+    text-decoration: bold;
+    font-size: 45px;
+    margin: 150px;
+}
+.new-arrival-image {
+    width: 250px;
+    border: 3px solid #a4a4a4;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 45px;
+    text-align: center;
+    display: inline-block;
 
 /*ABOUT-US PAGE ----------------------------------------------------------------------------------------------------------*/
 
@@ -106,6 +133,7 @@ th {
 
 .product-display-body{
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperup.com%2Fuploads%2Fwallpapers%2F2012%2F09%2F25%2F16385%2F5a3f14611d3bad73eae8383d9b87268a.jpg&f=1&nofb=1&ipt=d69f241401c6dccbff27ebc3aec1f4d8d5416a65f757717237e4441400193dd2&ipo=images);
+    /*background-color: 181818;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

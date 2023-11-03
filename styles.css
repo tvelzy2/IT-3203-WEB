@@ -108,9 +108,18 @@ th {
     background-color: #e1e1e1;
     border-radius: 5px;
     padding: 10px;
-    margin: 45px;
+    margin: 20px;
     text-align: center;
     display: inline-block;
+}
+.new-arrival-title {
+    color: #e3d7bd;
+    font-weight: bold;
+}
+.new-arrival-description{
+    color: #e3d7bd;
+    font-weight: bold;
+}
 
 /*ABOUT-US PAGE ----------------------------------------------------------------------------------------------------------*/
 

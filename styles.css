@@ -219,9 +219,14 @@ th, td {
     margin-bottom: 10px;
 }
 .product-detail-price {
-    font-size: 20px;
-    color: #4CAF50;
+    font-size: 15px;
+    text-decoration: line-through;
+    color: #d31616;
     margin-bottom: 10px;
+}
+.product-detail-sale-price {
+    font-size: 30px;
+    color: #4CAF50;
 }
 .product-detail-description {
     line-height: 1.6;

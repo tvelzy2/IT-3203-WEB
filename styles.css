@@ -155,7 +155,6 @@ th {
 
 .product-main {
     padding-top: 20px;
-    overflow: auto;
 }
 .product-detail-container {
     display: flex;

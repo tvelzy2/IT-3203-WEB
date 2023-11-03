@@ -20,10 +20,10 @@ footer {
     text-align: center;
     color: #d4d4d4;
     background: #101010;
-    position: relative;
+    position: static;
     font-size: 15px;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 150;
     bottom: 0;
     width: 100%;
     line-height: 30px;

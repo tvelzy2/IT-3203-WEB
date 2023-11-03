@@ -20,13 +20,11 @@ footer {
     text-align: center;
     color: #d4d4d4;
     background: #101010;
-    position: static;
     font-size: 15px;
     padding: 20px;
     margin-top: 150px;
-    bottom: 0;
     width: 100%;
-    line-height: 30px;
+    line-height: 25px;
 }
 table {
     width: 80%;

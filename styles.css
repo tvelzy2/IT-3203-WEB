@@ -7,7 +7,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1f1;
+    background-color: #dcdddd;
     position: relative;
     min-height: 100vh;
     overflow-y: scroll;
@@ -126,6 +126,24 @@ th, td {
     padding-top: 50px;
     margin: 0 auto;
 }
+.about-us-heading,
+.our-story-heading,
+.our-mission-heading,
+.why-choose-heading {
+    text-align: center;
+}
+.about-us-section,
+.our-story-section,
+.our-mission-list,
+.why-choose-list {
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 20px;
+    list-style-type: none;
+    line-height: 30px;
+    box-shadow: 2px 2px 5px;
+}
 
 /*SHIPPING-RETURNS PAGE ----------------------------------------------------------------------------------------------------------*/
 
@@ -146,6 +164,8 @@ th, td {
     background: #f4f4f4;
     margin: 10px 0;
     padding: 20px;
+    line-height: 30px;
+    box-shadow: 2px 2px 5px;
 }
 
 /*PRODUCT-DISPLAY PAGE ----------------------------------------------------------------------------------------------------------*/

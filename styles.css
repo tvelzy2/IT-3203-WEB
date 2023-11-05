@@ -110,6 +110,9 @@ th, td {
     text-align: center;
     display: inline-block;
 }
+.new-arrival-image:hover{
+    transform: scale(1.05);
+}
 .new-arrival-title {
     color: #e3d7bd;
     font-weight: bold;

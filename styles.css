@@ -26,6 +26,15 @@ footer {
     width: 100%;
     line-height: 25px;
 }
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 table {
     width: 50%;
     border-collapse: collapse;
@@ -285,6 +294,11 @@ th, td {
     font-size: 15px;
     cursor: pointer;
 }
-.back-button:hover{
+.back-button:hover {
     background-color: #181818;
+}
+.product-video {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
